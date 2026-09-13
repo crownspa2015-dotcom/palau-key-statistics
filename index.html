@@ -636,6 +636,46 @@ function visitorLine(chart){
 }
 
 
+
+function socialLineVisual(chart){
+  if(!chart || !Array.isArray(chart.series) || !chart.series.length) return "";
+  const pts=chart.series;
+  const w=900,h=230,left=52,right=28,top=26,bottom=42;
+  const vals=pts.map(d=>Number(d.value)||0);
+  const min=Math.min(...vals), max=Math.max(...vals);
+  const pad=Math.max((max-min)*0.35,20);
+  const yMin=min-pad, yMax=max+pad;
+  const usableW=w-left-right, usableH=h-top-bottom;
+  const x=i=>left+(pts.length===1?0:i*(usableW/(pts.length-1)));
+  const y=v=>top+usableH*(1-(v-yMin)/(yMax-yMin || 1));
+  const poly=pts.map((p,i)=>`${x(i)},${y(Number(p.value)||0)}`).join(" ");
+  const sourceInline = chart.sourceUrl
+    ? ` · Source: <a class="visual-source-link" href="${esc(chart.sourceUrl)}" target="_blank" rel="noopener">${esc(chart.source || "Source")}</a>`
+    : "";
+  const grid=[0,.25,.5,.75,1].map(fr=>{
+    const gy=top+usableH*fr;
+    return `<line x1="${left}" y1="${gy}" x2="${w-right}" y2="${gy}" stroke="#dce8f4" stroke-width="1"/>`;
+  }).join("");
+  const marks=pts.map((p,i)=>`
+    <circle cx="${x(i)}" cy="${y(Number(p.value)||0)}" r="5" fill="#0b66d3"/>
+    <text x="${x(i)}" y="${Math.max(14,y(Number(p.value)||0)-11)}" text-anchor="middle" font-size="11" fill="#0b66d3" font-weight="700">${esc(p.display ?? Number(p.value).toLocaleString())}</text>
+    <text x="${x(i)}" y="${h-14}" text-anchor="middle" font-size="10.5" fill="#61769b">${esc(p.label)}</text>
+  `).join("");
+  return `<div class="visuals single-visual">
+    <div class="visual">
+      <h3>${esc(chart.title)}</h3>
+      <div class="visual-sub">${esc(chart.subtitle)}${sourceInline}</div>
+      <div class="line-wrap" style="height:230px">
+        <svg class="line-svg" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+          ${grid}
+          <polyline points="${poly}" fill="none" stroke="#0b66d3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          ${marks}
+        </svg>
+      </div>
+    </div>
+  </div>`;
+}
+
 function horizontalBarVisual(chart){
   if(!chart || !Array.isArray(chart.series)) return "";
   const sourceInline = chart.sourceUrl
@@ -694,7 +734,7 @@ async function load(){
     if(!r.ok) throw new Error(`HTTP ${r.status}`);
     const d=await r.json();
 
-    const socialInner = cards(d.social.cards, "social") + horizontalBarVisual(d.social.chart);
+    const socialInner = cards(d.social.cards, "social") + socialLineVisual(d.social.chart);
 
     const economicInner = cards(d.economic.cards, "economic") + economicVisuals(d);
 
