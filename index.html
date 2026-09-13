@@ -78,6 +78,36 @@ a{color:#456fa6;text-decoration:underline;text-underline-offset:2px}
   .social .cards,.economic .cards,.environment .cards{grid-template-columns:1fr !important;}
 }
 
+
+/* FINAL HUB LAYOUT OVERRIDE */
+.social .cards,
+.economic .cards{
+  grid-template-columns:repeat(5,minmax(0,1fr)) !important;
+}
+.environment .cards{
+  grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+}
+.social .card,
+.economic .card,
+.environment .card{
+  min-width:0 !important;
+}
+.social .card > div:last-child,
+.economic .card > div:last-child,
+.environment .card > div:last-child{
+  min-width:0 !important;
+}
+.label,.period,.source{
+  overflow-wrap:anywhere;
+}
+@media(max-width:700px){
+  .social .cards,
+  .economic .cards,
+  .environment .cards{
+    grid-template-columns:1fr !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -132,7 +162,7 @@ async function main(){
  const social=cards(d.social.cards)+pyramid(d.social.pyramid);
  const econ=cards(d.economic.cards)+`<div class="visual-band"><div class="visual-kicker">Visual story</div><div class="visual-grid">${visitor(d.economic.visitors)}${trade(d.economic.trade)}</div></div>`;
  const env=cards(d.environment.cards)+`<div class="visual-band"><div class="visual-kicker">Visual story</div><div class="visual-grid">${marine(d.environment.marine)}${climate(d.environment.climate)}</div></div>`;
- document.getElementById("app").innerHTML=`<main class="wrap"><div class="hero"><h1>${esc(d.meta.title)}</h1>${d.meta.subtitle ? `<p>${esc(d.meta.subtitle)}</p>` : ""}</div>${section("social","SOCIAL","People","",social)}${section("economic","ECONOMIC","Economy","",econ)}${section("environment","ENVIRONMENT","Environment","",env)}<div class="footer"><div>Every indicator links to its official source.</div><div><strong>Updated:</strong> ${esc(d.meta.lastUpdated)}</div></div></main>`;
+ document.getElementById("app").innerHTML=`<main class="wrap"><div class="hero"><h1>${esc(d.meta.title)}</h1>${d.meta.subtitle ? `<p>${esc(d.meta.subtitle)}</p>` : ""}</div>${section("social","SOCIAL","","",social)}${section("economic","ECONOMIC","","",econ)}${section("environment","ENVIRONMENT","","",env)}<div class="footer"><div>Every indicator links to its official source.</div><div><strong>Updated:</strong> ${esc(d.meta.lastUpdated)}</div></div></main>`;
 }
 main().catch(e=>document.getElementById("app").innerHTML=`<div style="padding:25px">Could not render dashboard: ${esc(e.message)}</div>`);
 </script>
