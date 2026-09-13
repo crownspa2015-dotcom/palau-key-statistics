@@ -1,16 +1,9 @@
 {
   "meta": {
     "title": "Palau — Key Statistics",
-    "subtitle": "A 30-second statistical portrait of Palau — its people, economy and resilience.",
+    "subtitle": "Official statistics at a glance — a 30-second portrait of Palau’s people, economy and resilience.",
     "lastUpdated": "13 September 2026"
   },
-  "sources": [
-    "Palau Office of Planning and Statistics",
-    "Bureau of Budget and Planning, Ministry of Finance",
-    "Ministry of Health and Human Services",
-    "Ministry of Agriculture, Fisheries and the Environment",
-    "Palau Energy & Water Administration"
-  ],
   "social": {
     "cards": [
       {
@@ -29,32 +22,32 @@
       },
       {
         "label": "Infant mortality",
-        "value": "22.3 / 1,000",
-        "period": "Live births · 2021",
-        "source": "Bureau of Public Health & Office of Planning and Statistics",
-        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/health-statistics/"
+        "value": "16.4 / 1,000",
+        "period": "Live births · 2023",
+        "source": "Palau Office of Planning and Statistics — 2023 Statistical Yearbook",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf"
       },
       {
         "label": "Top 20% income share",
         "value": "42%",
-        "period": "Bottom 20% receive ~9% · 2023/24 HIES",
+        "period": "Bottom 20% receive ~9% · 2023/24",
         "source": "Palau Office of Planning and Statistics / SPC — 2023/24 HIES",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-2024-Household-Income-Expenditure-Survey-Report.pdf"
       },
       {
         "label": "Labour-force participation",
         "value": "76.9%",
-        "period": "Population aged 16+ · 2020 Census",
+        "period": "Population aged 16+ · 2020",
         "source": "Palau Office of Planning and Statistics — 2020 Census",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2022/09/2020-Census-of-Population-and-Housing.pdf"
       }
     ],
     "pyramid": {
-      "title": "Palau’s population structure",
+      "title": "Who lives in Palau?",
       "subtitle": "Population by age and sex · 2020 Census",
-      "source": "Palau Office of Planning and Statistics — Population Census",
-      "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/",
-      "median": "Median age: males 37.4 · females 38.7",
+      "source": "Palau Office of Planning and Statistics — 2020 Census",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf",
+      "note": "Median age: 37.4 years for males and 38.7 years for females.",
       "series": [
         {
           "age": "75+",
@@ -145,21 +138,21 @@
         "label": "GDP growth",
         "value": "6.0%",
         "period": "FY2025 · preliminary",
-        "source": "Palau Office of Planning and Statistics — Preliminary GDP FY2025",
+        "source": "Palau Office of Planning and Statistics — GDP FY2025",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
       },
       {
         "label": "GDP",
         "value": "US$351.7m",
         "period": "Current prices · FY2025 preliminary",
-        "source": "Palau Office of Planning and Statistics — Preliminary GDP FY2025",
+        "source": "Palau Office of Planning and Statistics — GDP FY2025",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
       },
       {
         "label": "Visitor arrivals",
         "value": "65,558",
         "period": "FY2025",
-        "source": "Palau Government — Visitor Arrivals",
+        "source": "Palau Government — Immigration & Tourism Statistics",
         "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/"
       },
       {
@@ -170,15 +163,15 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-CPI-Publication-Q4-2025.pdf"
       },
       {
-        "label": "Merchandise trade deficit",
+        "label": "Trade deficit",
         "value": "US$198.4m",
-        "period": "CY2025",
+        "period": "Merchandise trade · CY2025",
         "source": "Palau Office of Planning and Statistics — IMTS Q4 2025",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf"
       }
     ],
     "visitors": {
-      "title": "Tourism shock and recovery",
+      "title": "Tourism collapsed — and is recovering",
       "subtitle": "Visitor arrivals · FY2019–FY2025",
       "source": "Palau Government — Immigration & Tourism Statistics",
       "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/",
@@ -214,7 +207,7 @@
       ]
     },
     "trade": {
-      "title": "Palau imports far more than it exports",
+      "title": "Imports dwarf exports",
       "subtitle": "Merchandise trade · CY2025",
       "source": "Palau Office of Planning and Statistics — IMTS Q4 2025",
       "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf",
@@ -242,52 +235,42 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/MAFE-2024-Transition-Report.pdf"
       },
       {
-        "label": "Electricity access",
-        "value": "100%",
-        "period": "Population with access · 2023",
-        "source": "Palau Enhanced NDC 2025–2030 / Palau Energy & Water Administration",
+        "label": "Electricity share of GHG emissions",
+        "value": "59%",
+        "period": "2022 national GHG inventory",
+        "source": "Palau Enhanced NDC 2025–2030",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf"
       },
       {
-        "label": "Electricity GHG emissions",
-        "value": "55.86 Gg CO₂e",
-        "period": "2022 NDC baseline",
+        "label": "Renewable electricity target",
+        "value": "70%",
+        "period": "Target for 2030",
         "source": "Palau Enhanced NDC 2025–2030",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf"
       },
       {
         "label": "Projected sea-level rise",
         "value": "3.0–6.3 in",
-        "period": "By 2030 · climate projection",
+        "period": "By 2030 · projection",
         "source": "Palau Water Policy 2025–2045",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf"
       }
     ],
     "marine": {
-      "title": "Four-fifths of Palau’s EEZ is protected",
+      "title": "Palau protects four-fifths of its EEZ",
       "subtitle": "Palau National Marine Sanctuary",
       "source": "Ministry of Agriculture, Fisheries and the Environment — 2024 Transition Report",
       "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/MAFE-2024-Transition-Report.pdf",
       "protected": 80,
       "other": 20
     },
-    "energy": {
-      "title": "Electricity capacity remains diesel-heavy",
-      "subtitle": "Installed electricity capacity · 2023 · total 35 MW",
+    "climate": {
+      "title": "Energy is central to Palau’s climate challenge",
+      "subtitle": "2022 GHG inventory and 2030 renewable-electricity target",
       "source": "Palau Enhanced NDC 2025–2030",
       "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf",
-      "series": [
-        {
-          "label": "Diesel generation",
-          "value": 29.9,
-          "display": "29.9 MW"
-        },
-        {
-          "label": "Renewable energy",
-          "value": 4.71,
-          "display": "4.71 MW"
-        }
-      ]
+      "emissionsShare": 59,
+      "renewableTarget": 70
     }
   }
 }
