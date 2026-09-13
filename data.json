@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Palau — Key Statistics",
-    "subtitle": "Official statistics at a glance — a 30-second portrait of Palau’s people, economy and resilience.",
+    "subtitle": "Official statistics at a glance",
     "lastUpdated": "13 September 2026"
   },
   "social": {
@@ -43,7 +43,7 @@
       }
     ],
     "pyramid": {
-      "title": "Who lives in Palau?",
+      "title": "Population Pyramid",
       "subtitle": "Population by age and sex · 2020 Census",
       "source": "Palau Office of Planning and Statistics — 2020 Census",
       "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf",
@@ -171,7 +171,7 @@
       }
     ],
     "visitors": {
-      "title": "Tourism collapsed — and is recovering",
+      "title": "Tourism",
       "subtitle": "Visitor arrivals · FY2019–FY2025",
       "source": "Palau Government — Immigration & Tourism Statistics",
       "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/",
@@ -207,7 +207,7 @@
       ]
     },
     "trade": {
-      "title": "Imports dwarf exports",
+      "title": "Imports vs exports",
       "subtitle": "Merchandise trade · CY2025",
       "source": "Palau Office of Planning and Statistics — IMTS Q4 2025",
       "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf",
