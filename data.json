@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "Palau — Key Statistics",
+    "subtitle": "Official statistics at a glance — highlighting key social, economic and environmental indicators for Palau.",
+    "lastUpdated": "13 September 2026"
+  },
+  "sources": [
+    "Palau Office of Planning and Statistics",
+    "Bureau of Budget and Planning, Ministry of Finance",
+    "Palau Visitors Authority",
+    "Ministry of Health and Human Services",
+    "Ministry of Agriculture, Fisheries and the Environment"
+  ],
+  "social": {
+    "cards": [
+      {
+        "icon": "👥",
+        "label": "Population",
+        "value": "17,614",
+        "period": "2020 Census",
+        "source": "Palau Office of Planning and Statistics — 2020 Census",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
+      },
+      {
+        "icon": "⌂",
+        "label": "Urban population",
+        "value": "77.9%",
+        "period": "13,728 people · 2020 Census",
+        "source": "Palau Office of Planning and Statistics — 2020 Census",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
+      },
+      {
+        "icon": "↘",
+        "label": "Population growth",
+        "value": "-0.05%",
+        "period": "Average annual growth · 2015–2020",
+        "source": "Palau Office of Planning and Statistics — 2020 Census",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
+      },
+      {
+        "icon": "🎓",
+        "label": "School enrolment",
+        "value": "2,963",
+        "period": "Students · 2023–24",
+        "source": "Palau Office of Planning and Statistics — 2023 Statistical Yearbook",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf"
+      },
+      {
+        "icon": "❤",
+        "label": "Infant mortality",
+        "value": "22.3 / 1,000",
+        "period": "Live births · 2021",
+        "source": "Palau Office of Planning and Statistics — Health Statistics",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/health-statistics/"
+      }
+    ],
+    "chart": {
+      "title": "School enrolment trend",
+      "subtitle": "Total school enrolment · 2017–18 to 2023–24",
+      "source": "Palau Office of Planning and Statistics — 2023 Statistical Yearbook",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf",
+      "series": [
+        {
+          "label": "2017–18",
+          "value": 3049,
+          "display": "3,049"
+        },
+        {
+          "label": "2018–19",
+          "value": 3052,
+          "display": "3,052"
+        },
+        {
+          "label": "2019–20",
+          "value": 2986,
+          "display": "2,986"
+        },
+        {
+          "label": "2020–21",
+          "value": 3038,
+          "display": "3,038"
+        },
+        {
+          "label": "2021–22",
+          "value": 2979,
+          "display": "2,979"
+        },
+        {
+          "label": "2022–23",
+          "value": 2976,
+          "display": "2,976"
+        },
+        {
+          "label": "2023–24",
+          "value": 2963,
+          "display": "2,963"
+        }
+      ]
+    }
+  },
+  "economic": {
+    "cards": [
+      {
+        "icon": "↗",
+        "label": "GDP growth",
+        "value": "6.0%",
+        "period": "FY2025 · preliminary",
+        "source": "Palau Office of Planning and Statistics — Preliminary GDP FY2025",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
+      },
+      {
+        "icon": "$",
+        "label": "GDP",
+        "value": "US$351.7m",
+        "period": "Current prices · FY2025 preliminary",
+        "source": "Palau Office of Planning and Statistics — Preliminary GDP FY2025",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
+      },
+      {
+        "icon": "✈",
+        "label": "Visitor arrivals",
+        "value": "65,558",
+        "period": "FY2025",
+        "source": "Palau Government — Visitor Arrivals",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/"
+      },
+      {
+        "icon": "%",
+        "label": "Annual inflation",
+        "value": "0.1%",
+        "period": "Q4 2025 · year-on-year",
+        "source": "Palau Office of Planning and Statistics — CPI Q4 2025",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-CPI-Publication-Q4-2025.pdf"
+      },
+      {
+        "icon": "▣",
+        "label": "Merchandise trade deficit",
+        "value": "US$198.4m",
+        "period": "CY2025",
+        "source": "Palau Office of Planning and Statistics — IMTS Q4 2025",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf"
+      }
+    ],
+    "charts": [
+      {
+        "title": "Visitor arrivals trend",
+        "subtitle": "Annual visitors · FY2019–FY2025 · Source: Palau Government",
+        "series": [
+          {
+            "label": "2019",
+            "value": 89379
+          },
+          {
+            "label": "2020",
+            "value": 41628
+          },
+          {
+            "label": "2021",
+            "value": 3400
+          },
+          {
+            "label": "2022",
+            "value": 9247
+          },
+          {
+            "label": "2023",
+            "value": 35052
+          },
+          {
+            "label": "2024",
+            "value": 52661
+          },
+          {
+            "label": "2025",
+            "value": 65558
+          }
+        ]
+      },
+      {
+        "title": "Imports vs exports",
+        "subtitle": "Merchandise trade · CY2025 · US$ million · Source: Palau Office of Planning and Statistics",
+        "series": [
+          {
+            "label": "Imports",
+            "value": 211.5,
+            "display": "US$211.5m"
+          },
+          {
+            "label": "Exports",
+            "value": 13.1,
+            "display": "US$13.1m"
+          }
+        ]
+      }
+    ]
+  },
+  "environment": {
+    "cards": [
+      {
+        "icon": "🌊",
+        "label": "Marine sanctuary coverage",
+        "value": "80% of EEZ",
+        "period": "Palau National Marine Sanctuary",
+        "source": "Ministry of Agriculture, Fisheries and the Environment — 2024 Transition Report",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/MAFE-2024-Transition-Report.pdf"
+      },
+      {
+        "icon": "🌳",
+        "label": "Forest cover on Babeldaob",
+        "value": "73%",
+        "period": "2014 vegetation mapping",
+        "source": "Palau Development Plan 2023–2026",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf"
+      },
+      {
+        "icon": "🌿",
+        "label": "Mangrove cover on Babeldaob",
+        "value": "11%",
+        "period": "2014 vegetation mapping",
+        "source": "Palau Development Plan 2023–2026",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf"
+      },
+      {
+        "icon": "◎",
+        "label": "Population near the coast",
+        "value": "100%",
+        "period": "Within 100 km of coast · source year not stated",
+        "source": "Palau Government — Environment Statistics",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/environment-statistics/"
+      },
+      {
+        "icon": "⚠",
+        "label": "Low-lying coastal land",
+        "value": "20%",
+        "period": "Land below 10 m and within 2 km of coast · source year not stated",
+        "source": "Palau Government — Environment Statistics",
+        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/environment-statistics/"
+      }
+    ],
+    "chart": {
+      "title": "Babeldaob land-cover profile",
+      "subtitle": "Share of mapped land cover · 2014 vegetation mapping",
+      "source": "Palau Development Plan 2023–2026",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf",
+      "series": [
+        {
+          "label": "Forest",
+          "value": 73,
+          "display": "73%"
+        },
+        {
+          "label": "Grassland / savanna",
+          "value": 14,
+          "display": "14%"
+        },
+        {
+          "label": "Mangrove",
+          "value": 11,
+          "display": "11%"
+        },
+        {
+          "label": "Marsh",
+          "value": 2,
+          "display": "2%"
+        },
+        {
+          "label": "Built-up",
+          "value": 1,
+          "display": "1%"
+        }
+      ]
+    }
+  }
+}
