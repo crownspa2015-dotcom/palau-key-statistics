@@ -1,20 +1,19 @@
 {
   "meta": {
     "title": "Palau — Key Statistics",
-    "subtitle": "Official statistics at a glance — highlighting key social, economic and environmental indicators for Palau.",
+    "subtitle": "A 30-second statistical portrait of Palau — its people, economy and resilience.",
     "lastUpdated": "13 September 2026"
   },
   "sources": [
     "Palau Office of Planning and Statistics",
     "Bureau of Budget and Planning, Ministry of Finance",
-    "Palau Visitors Authority",
     "Ministry of Health and Human Services",
-    "Ministry of Agriculture, Fisheries and the Environment"
+    "Ministry of Agriculture, Fisheries and the Environment",
+    "Palau Energy & Water Administration"
   ],
   "social": {
     "cards": [
       {
-        "icon": "👥",
         "label": "Population",
         "value": "17,614",
         "period": "2020 Census",
@@ -22,78 +21,120 @@
         "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
       },
       {
-        "icon": "⌂",
-        "label": "Urban population",
-        "value": "77.9%",
-        "period": "13,728 people · 2020 Census",
-        "source": "Palau Office of Planning and Statistics — 2020 Census",
-        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
-      },
-      {
-        "icon": "↘",
-        "label": "Population growth",
-        "value": "-0.05%",
-        "period": "Average annual growth · 2015–2020",
-        "source": "Palau Office of Planning and Statistics — 2020 Census",
-        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/"
-      },
-      {
-        "icon": "🎓",
-        "label": "School enrolment",
-        "value": "2,963",
-        "period": "Students · 2023–24",
+        "label": "College attainment",
+        "value": "15.3%",
+        "period": "Adults 25+ with 4+ years of college · 2020",
         "source": "Palau Office of Planning and Statistics — 2023 Statistical Yearbook",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf"
       },
       {
-        "icon": "❤",
         "label": "Infant mortality",
         "value": "22.3 / 1,000",
         "period": "Live births · 2021",
-        "source": "Palau Office of Planning and Statistics — Health Statistics",
+        "source": "Bureau of Public Health & Office of Planning and Statistics",
         "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/health-statistics/"
+      },
+      {
+        "label": "Top 20% income share",
+        "value": "42%",
+        "period": "Bottom 20% receive ~9% · 2023/24 HIES",
+        "source": "Palau Office of Planning and Statistics / SPC — 2023/24 HIES",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-2024-Household-Income-Expenditure-Survey-Report.pdf"
+      },
+      {
+        "label": "Labour-force participation",
+        "value": "76.9%",
+        "period": "Population aged 16+ · 2020 Census",
+        "source": "Palau Office of Planning and Statistics — 2020 Census",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2022/09/2020-Census-of-Population-and-Housing.pdf"
       }
     ],
-    "chart": {
-      "title": "School enrolment trend",
-      "subtitle": "Total school enrolment · 2017–18 to 2023–24",
-      "source": "Palau Office of Planning and Statistics — 2023 Statistical Yearbook",
-      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/2023-Statistical_Yearbook.pdf",
+    "pyramid": {
+      "title": "Palau’s population structure",
+      "subtitle": "Population by age and sex · 2020 Census",
+      "source": "Palau Office of Planning and Statistics — Population Census",
+      "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/population-census/",
+      "median": "Median age: males 37.4 · females 38.7",
       "series": [
         {
-          "label": "2017–18",
-          "value": 3049,
-          "display": "3,049"
+          "age": "75+",
+          "male": 174,
+          "female": 302
         },
         {
-          "label": "2018–19",
-          "value": 3052,
-          "display": "3,052"
+          "age": "70–74",
+          "male": 207,
+          "female": 231
         },
         {
-          "label": "2019–20",
-          "value": 2986,
-          "display": "2,986"
+          "age": "65–69",
+          "male": 375,
+          "female": 382
         },
         {
-          "label": "2020–21",
-          "value": 3038,
-          "display": "3,038"
+          "age": "60–64",
+          "male": 542,
+          "female": 498
         },
         {
-          "label": "2021–22",
-          "value": 2979,
-          "display": "2,979"
+          "age": "55–59",
+          "male": 669,
+          "female": 596
         },
         {
-          "label": "2022–23",
-          "value": 2976,
-          "display": "2,976"
+          "age": "50–54",
+          "male": 704,
+          "female": 673
         },
         {
-          "label": "2023–24",
-          "value": 2963,
-          "display": "2,963"
+          "age": "45–49",
+          "male": 818,
+          "female": 627
+        },
+        {
+          "age": "40–44",
+          "male": 827,
+          "female": 605
+        },
+        {
+          "age": "35–39",
+          "male": 818,
+          "female": 551
+        },
+        {
+          "age": "30–34",
+          "male": 794,
+          "female": 566
+        },
+        {
+          "age": "25–29",
+          "male": 796,
+          "female": 540
+        },
+        {
+          "age": "20–24",
+          "male": 478,
+          "female": 419
+        },
+        {
+          "age": "15–19",
+          "male": 536,
+          "female": 507
+        },
+        {
+          "age": "10–14",
+          "male": 605,
+          "female": 597
+        },
+        {
+          "age": "5–9",
+          "male": 624,
+          "female": 540
+        },
+        {
+          "age": "0–4",
+          "male": 527,
+          "female": 486
         }
       ]
     }
@@ -101,7 +142,6 @@
   "economic": {
     "cards": [
       {
-        "icon": "↗",
         "label": "GDP growth",
         "value": "6.0%",
         "period": "FY2025 · preliminary",
@@ -109,7 +149,6 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
       },
       {
-        "icon": "$",
         "label": "GDP",
         "value": "US$351.7m",
         "period": "Current prices · FY2025 preliminary",
@@ -117,7 +156,6 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Gross-Domestic-Product-P_Preliminary-FY2025.pdf"
       },
       {
-        "icon": "✈",
         "label": "Visitor arrivals",
         "value": "65,558",
         "period": "FY2025",
@@ -125,7 +163,6 @@
         "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/"
       },
       {
-        "icon": "%",
         "label": "Annual inflation",
         "value": "0.1%",
         "period": "Q4 2025 · year-on-year",
@@ -133,7 +170,6 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-CPI-Publication-Q4-2025.pdf"
       },
       {
-        "icon": "▣",
         "label": "Merchandise trade deficit",
         "value": "US$198.4m",
         "period": "CY2025",
@@ -141,132 +177,115 @@
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf"
       }
     ],
-    "charts": [
-      {
-        "title": "Visitor arrivals trend",
-        "subtitle": "Annual visitors · FY2019–FY2025 · Source: Palau Government",
-        "series": [
-          {
-            "label": "2019",
-            "value": 89379
-          },
-          {
-            "label": "2020",
-            "value": 41628
-          },
-          {
-            "label": "2021",
-            "value": 3400
-          },
-          {
-            "label": "2022",
-            "value": 9247
-          },
-          {
-            "label": "2023",
-            "value": 35052
-          },
-          {
-            "label": "2024",
-            "value": 52661
-          },
-          {
-            "label": "2025",
-            "value": 65558
-          }
-        ]
-      },
-      {
-        "title": "Imports vs exports",
-        "subtitle": "Merchandise trade · CY2025 · US$ million · Source: Palau Office of Planning and Statistics",
-        "series": [
-          {
-            "label": "Imports",
-            "value": 211.5,
-            "display": "US$211.5m"
-          },
-          {
-            "label": "Exports",
-            "value": 13.1,
-            "display": "US$13.1m"
-          }
-        ]
-      }
-    ]
+    "visitors": {
+      "title": "Tourism shock and recovery",
+      "subtitle": "Visitor arrivals · FY2019–FY2025",
+      "source": "Palau Government — Immigration & Tourism Statistics",
+      "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/immigration-tourism-statistics/",
+      "series": [
+        {
+          "label": "2019",
+          "value": 89379
+        },
+        {
+          "label": "2020",
+          "value": 41628
+        },
+        {
+          "label": "2021",
+          "value": 3400
+        },
+        {
+          "label": "2022",
+          "value": 9247
+        },
+        {
+          "label": "2023",
+          "value": 35052
+        },
+        {
+          "label": "2024",
+          "value": 52661
+        },
+        {
+          "label": "2025",
+          "value": 65558
+        }
+      ]
+    },
+    "trade": {
+      "title": "Palau imports far more than it exports",
+      "subtitle": "Merchandise trade · CY2025",
+      "source": "Palau Office of Planning and Statistics — IMTS Q4 2025",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/IMTS-Release-2025_Q4.pdf",
+      "series": [
+        {
+          "label": "Imports",
+          "value": 211.5,
+          "display": "US$211.5m"
+        },
+        {
+          "label": "Exports",
+          "value": 13.1,
+          "display": "US$13.1m"
+        }
+      ]
+    }
   },
   "environment": {
     "cards": [
       {
-        "icon": "🌊",
-        "label": "Marine sanctuary coverage",
+        "label": "Marine sanctuary",
         "value": "80% of EEZ",
         "period": "Palau National Marine Sanctuary",
         "source": "Ministry of Agriculture, Fisheries and the Environment — 2024 Transition Report",
         "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/MAFE-2024-Transition-Report.pdf"
       },
       {
-        "icon": "🌳",
-        "label": "Forest cover on Babeldaob",
-        "value": "73%",
-        "period": "2014 vegetation mapping",
-        "source": "Palau Development Plan 2023–2026",
-        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf"
-      },
-      {
-        "icon": "🌿",
-        "label": "Mangrove cover on Babeldaob",
-        "value": "11%",
-        "period": "2014 vegetation mapping",
-        "source": "Palau Development Plan 2023–2026",
-        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf"
-      },
-      {
-        "icon": "◎",
-        "label": "Population near the coast",
+        "label": "Electricity access",
         "value": "100%",
-        "period": "Within 100 km of coast · source year not stated",
-        "source": "Palau Government — Environment Statistics",
-        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/environment-statistics/"
+        "period": "Population with access · 2023",
+        "source": "Palau Enhanced NDC 2025–2030 / Palau Energy & Water Administration",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf"
       },
       {
-        "icon": "⚠",
-        "label": "Low-lying coastal land",
-        "value": "20%",
-        "period": "Land below 10 m and within 2 km of coast · source year not stated",
-        "source": "Palau Government — Environment Statistics",
-        "sourceUrl": "https://www.palaugov.pw/executive-branch/ministries/finance/budgetandplanning/environment-statistics/"
+        "label": "Electricity GHG emissions",
+        "value": "55.86 Gg CO₂e",
+        "period": "2022 NDC baseline",
+        "source": "Palau Enhanced NDC 2025–2030",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf"
+      },
+      {
+        "label": "Projected sea-level rise",
+        "value": "3.0–6.3 in",
+        "period": "By 2030 · climate projection",
+        "source": "Palau Water Policy 2025–2045",
+        "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf"
       }
     ],
-    "chart": {
-      "title": "Babeldaob land-cover profile",
-      "subtitle": "Share of mapped land cover · 2014 vegetation mapping",
-      "source": "Palau Development Plan 2023–2026",
-      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/Palau-Development-Plan-PDP-2023-2026.pdf",
+    "marine": {
+      "title": "Four-fifths of Palau’s EEZ is protected",
+      "subtitle": "Palau National Marine Sanctuary",
+      "source": "Ministry of Agriculture, Fisheries and the Environment — 2024 Transition Report",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/MAFE-2024-Transition-Report.pdf",
+      "protected": 80,
+      "other": 20
+    },
+    "energy": {
+      "title": "Electricity capacity remains diesel-heavy",
+      "subtitle": "Installed electricity capacity · 2023 · total 35 MW",
+      "source": "Palau Enhanced NDC 2025–2030",
+      "sourceUrl": "https://www.palaugov.pw/wp-content/uploads/DRAFT__Palau-Enhanced-NDC-2025-2030-SPC_NDCHUB_etc.pdf",
       "series": [
         {
-          "label": "Forest",
-          "value": 73,
-          "display": "73%"
+          "label": "Diesel generation",
+          "value": 29.9,
+          "display": "29.9 MW"
         },
         {
-          "label": "Grassland / savanna",
-          "value": 14,
-          "display": "14%"
-        },
-        {
-          "label": "Mangrove",
-          "value": 11,
-          "display": "11%"
-        },
-        {
-          "label": "Marsh",
-          "value": 2,
-          "display": "2%"
-        },
-        {
-          "label": "Built-up",
-          "value": 1,
-          "display": "1%"
+          "label": "Renewable energy",
+          "value": 4.71,
+          "display": "4.71 MW"
         }
       ]
     }
